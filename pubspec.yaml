@@ -1,0 +1,3 @@
+name: ensuring_page
+dependencies:
+  browser: any
