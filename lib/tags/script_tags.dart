@@ -1,7 +1,7 @@
 part of ensuring_page;
 
-createPolymerExport(){
+createPolymerExport() {
   return new Element.tag('script')
-         ..type = 'application/dart'
-         ..text = "export 'package:polymer/init.dart';";
+    ..type = 'application/dart'
+    ..text = "export 'package:polymer/init.dart';";
 }
