@@ -1,3 +1,6 @@
 name: ensuring_page
+version: 0.1.0
+author: Vostrikov Vitaliy <rasart.pro@gmail.com>
+description: keep src html files clean
 dependencies:
-  browser: any
+  browser: ">=0.10.0+2 <0.11.0"
