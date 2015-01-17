@@ -1,11 +1,11 @@
 part of ensuring_page;
 
-createWebComponentsScript(){
+createWebComponentsScript() {
   return new Element.tag('script')
     ..src = 'packages/web_components/webcomponents.min.js';
 }
-createDartSupportForWebComponents(){
-return new Element.tag('script')
+createDartSupportForWebComponents() {
+  return new Element.tag('script')
     ..src = 'packages/web_components/dart_support.js';
 }
 

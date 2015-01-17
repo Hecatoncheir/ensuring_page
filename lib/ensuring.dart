@@ -24,7 +24,8 @@ class Ensuring {
     body.attributes['unresolved'] = '';
 
     Element ScriptWebComponents = createWebComponentsScript();
-    Element ScriptDartSupportForWebComponents = createDartSupportForWebComponents();
+    Element ScriptDartSupportForWebComponents =
+        createDartSupportForWebComponents();
 
     head.append(ScriptWebComponents);
     head.append(ScriptDartSupportForWebComponents);
