@@ -1,6 +1,9 @@
 ###Changelog
 This file contains highlights of what changes on each version of the ensuring_page package.
 
+#### Version 0.1.3
+Update Readme
+
 #### Version 0.1.2
 Update Readme
 
